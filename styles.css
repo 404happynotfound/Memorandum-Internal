@@ -1,0 +1,19 @@
+#jokes {
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Libre Franklin';
+    font-size: 22px;
+}
+
+#gate {
+    text-align: center;
+    margin-top: 14px;
+    font-family: 'Indie Flower';
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+#gateLink {
+    text-decoration: none;
+    color: rgb(255, 128, 0);
+}

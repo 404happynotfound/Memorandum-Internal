@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff0f6;
+    margin: 0;
+}
+
+.container {
+    width: 700px;
+    height: 450px;
+    background-color: #ffe0ed;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #d4a4b7;
+    box-shadow: 0 3px 8px rgba(163, 78, 97, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbar {
+    display: flex;
+    background-color: #f6c1d6;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 14px;
+    height: 28px;
+    border-bottom: 2px solid #d4a4b7;
+}
+
+.top-spacer {
+    height: 20px;
+}
+
+.bottom-spacer {
+    height: 14px;
+}
+
+.dear {
+    font-family: 'Libre Franklin';
+    color: #b05479;
+    font-size: 14px;
+}
+
+.dummyButtons i {
+    margin-left: 16px;
+    font-size: 14px;
+    color: #b05479;
+}
+
+.content {
+    flex: 1;
+    margin: 12px 0px;
+    overflow-y: auto;
+    padding: 20px 20px 14px 20px;
+}
+
+.content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.content::-webkit-scrollbar-track {
+    background: #ffe0ed;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: #d4a4b7;
+}
+
+.bold {
+    font-family: 'Micro 5';
+    font-size: xx-large;
+    font-weight: bold;
+    color: #b05479;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.message,
+.message2 {
+    font-family: 'Micro 5';
+    font-size: large;
+    margin: 6px 5px 14px 5px;
+    color: #b05479;
+    text-align: justify;
+}
+
+.message2 {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.buttonsGroup {
+    margin-bottom: 15px;
+}
+
+.buttonsGroup a {
+    text-decoration: none;
+}
+
+.buttonsGroup a + a {
+    margin-left: 10px;
+}
+
+a button {
+    color: #b05479;
+    background-color: #fff0f6;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Micro 5';
+    font-size: large;
+    transition: all 0.2s ease;
+}
+
+a button:hover {
+    background-color: #f6c1d6;
+    transform: scale(1.05);
+}
